@@ -1,0 +1,76 @@
+* {
+  /* border: 2px solid red; */
+}
+
+#herosection {
+  background-color: #f1f3ff;
+}
+
+.testimonial {
+  background-color: #f1f3ff;
+  padding: 30px 30px 30px 130px;
+  margin: 0 15px 30px 15px;
+  overflow: hidden;
+  position: relative;
+}
+.testimonial:before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: -17px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  transform: rotate(45deg);
+}
+.testimonial:after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -17px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  transform: rotate(135deg);
+}
+.testimonial .pic {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+}
+.testimonial .pic img {
+  width: 100%;
+  height: auto;
+}
+.testimonial .description {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: black;
+  margin-bottom: 15px;
+}
+.testimonial .title {
+  display: inline-block;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: black;
+}
+.testimonial .post {
+  display: inline-block;
+  font-size: 17px;
+  color: black;
+  font-style: bold;
+}
+.owl-theme .owl-controls .owl-page span {
+  border: 2px solid black;
+  background: #f1f3ff !important;
+  border-radius: 0 !important;
+  opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page:hover span {
+  background: black !important;
+  border-color: black;
+}
